@@ -178,6 +178,10 @@
 				<img id="etape5" src="etape5.png">
 			</a-assets>
 			
+			<a-assets>
+				<img id="hp" src="HP.png">
+			</a-assets>
+			
 			<!-- Image Titre -->
 			<a-plane id ="tPaques" src="#ballon" transparent="true" height="10.14" width="40.65" position="0 13 -29"></a-plane>
 			
@@ -191,6 +195,8 @@
 			<a-plane id ="tetape4" visible=false src="#etape4" transparent="true" height="18.35" width="21.54" position="13 0 -10"></a-plane>
 			
 			<a-plane id ="tetape5" visible=false src="#etape5" transparent="true" height="18.35" width="21.54" position="13 0 -10"></a-plane>
+			
+			<a-plane id ="thp" visible=true src="#hp" transparent="true" height="3.2" width="3.2" position="15 13 -10"></a-plane>
 			
 			<!-- Image de Fond -->
 			<a-plane src="#ground" height="100" width="100" rotation="0 0 0" position="0 0 -20"></a-plane>
@@ -413,8 +419,6 @@
 												let Iville = document.querySelector('#villeI')
 												let M2ville = document.querySelector('#villeM2')
 												let E2ville = document.querySelector('#villeE2')
-												
-												alert("Cliquez sur OK pour commencer.");
 												
 												var sound = new Howl({
 													src: ['Caketown.mp3'],
