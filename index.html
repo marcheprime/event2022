@@ -67,7 +67,7 @@
 		
 		<script>
 			var sound = new Howl({
-			  src: ['sound.webm', 'sound.mp3']
+			  src: ['sound.mp3']
 			});
 		</script>
 		
@@ -416,12 +416,11 @@
 												
 												var sound = new Howl({
 													src: ['Caketown.mp3'],
-													autoplay: true,
 													loop: true,
 													volume: 0.5
 													});
 
-												<!-- sound.play(); -->
+												sound.play();
 												
 												<!-- Pause de 2 secondes pour le Lapin -->
 												setTimeout(function() {
